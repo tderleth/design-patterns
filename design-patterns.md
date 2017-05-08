@@ -16,89 +16,39 @@ Design Patterns sind keine Pakete 📦 oder Bibliotheken 📚, die man in eine A
 In der Literatur 📚 unterscheiden wir zwischen drei verschiedenen Typen von Patterns:
 
 1. [Creational](#chapter-1)
-	- Simple Factory
-	- Factory Method
-	- Abstract Factory
-	- Builder
-	- Prototype
-	- Singleton
 2. [Structural](#chapter-2)
-	- Adapter
-	- Bridge
-	- Composite
-	- Decorator
-	- Facade
-	- Flyweight
-	- Proxy
 3. [Behavioral](#chapter-3)
-	- Chain of Responsibility
-	- Command
-	- Iterator
-	- Mediator
-	- Memento
-	- Observer
-	- Visitor
-	- Strategy
-	- State
-	- Template Method
-
-***
 
 ## 🆕 Creational Design Patterns <a id="chapter-1"></a>
 
 Erzeugungsmuster konzentrieren sich darauf, wie man ein Objekt oder eine Gruppe von Objekten instanziiert.
 
-/Creational/simple-factory.md
-
-/Creational/factory-method.md
-
-/Creational/abstract-factory.md
-
-/Creational/builder.md
-
-/Creational/prototype.md
-
-/Creational/singleton.md
-
-***
-
+- [Simple Factory](/Creational/simple-factory.md)
+- [Factory Method](/Creational/factory-method.md)
+- [Abstract Factory](/Creational/abstract-factory.md)
+- [Builder](/Creational/builder.md)
+- [Prototype](/Creational/prototype.md)
+- [Singleton](/Creational/singleton.md)
 
 ## Structural Design Patterns <a id="chapter-2"></a>
 
-/Structural/adapter.md
-
-/Structural/bridge.md
-
-/Structural/composite.md
-
-/Structural/decorator.md
-
-/Structural/facade.md
-
-—/Structural/flyweight.md
-
-—/Structural/proxy.md
-
-***
+- [Adapter](/Structural/adapter.md)
+- [Bridge](/Structural/bridge.md)
+- [Composite](/Structural/composite.md)
+- [Decorator](/Structural/decorator.md)
+- [Facade](/Structural/facade.md)
+- [Flyweight](/Structural/flyweight.md)
+- [Proxy](/Structural/proxy.md)
 
 ## Behavioral Design Patterns <a id="chapter-3"></a>
 
-—/Behavioral/chain-of-responsibility.md
-
-—/Behavioral/command.md
-
-—/Behavioral/iterator.md
-
-—/Behavioral/mediator.md
-
-—/Behavioral/memento.md
-
-—/Behavioral/observer.md
-
-—/Behavioral/state.md
-
-—/Behavioral/strategy.md
-
-—/Behavioral/template-method.md
-
-—/Behavioral/visitor.md
+- [Chain of Responsibility](/Behavioral/chain-of-responsibility.md)
+- [Command](/Behavioral/command.md)
+- [Iterator](/Behavioral/iterator.md)
+- [Mediator](/Behavioral/mediator.md)
+- [Memento](/Behavioral/memento.md)
+- [Observer](/Behavioral/observer.md)
+- [State](/Behavioral/state.md)
+- [Strategy](/Behavioral/strategy.md)
+- [Template Method](/Behavioral/template-method.md)
+- [Visitor](/Behavioral/visitor.md)
