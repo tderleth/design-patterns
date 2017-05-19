@@ -2,7 +2,7 @@
 
 #### 🌍 Echtes Weltbeispiel
 
-
+<!--
 Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance.
 
 provides ways to decrease object count thus improving the object structure of application.
@@ -16,7 +16,7 @@ Each "flyweight" object is divided into two pieces:
 1. the state-dependent (extrinsic) part > stored or computed by client objects, and passed to the Flyweight when its operations are invoked.
 2. and the state-independent (intrinsic) part.  > stored (shared) in the Flyweight object.
 
-
+-->
 
 
 #### 💬 In einfachen Worten
