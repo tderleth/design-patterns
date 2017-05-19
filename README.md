@@ -1,6 +1,6 @@
 # 🎉 Design Patterns for fun & profit
 
-Inspiriert von Kamran Ahmed´s [ design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans/blob/master/README.md) der Versuch Design Patterns mit Analogien aus der realen Welt 🌎 so einfach zu erklären, dass sie im Kopf 🤓 bleiben! Dazu gibt es eine Menge Literatur, aber diese bringt es meist nicht auf den Punkt 🎯 und verursacht bei vielen Entwicklern Kopfschmerzen 🤦.
+Inspiriert von [Kamran Ahmed´s](https://github.com/kamranahmedse) [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans/blob/master/README.md) der Versuch Design Patterns mit Analogien aus der realen Welt 🌎 so einfach zu erklären, dass sie im Kopf 🤓 bleiben! Dazu gibt es eine Menge Literatur, aber diese bringt es meist nicht auf den Punkt 🎯 und verursacht bei vielen Entwicklern Kopfschmerzen 🤦.
 
 ## 🙌 Intro - Was sind Design Patterns?
 
@@ -19,7 +19,7 @@ In der Literatur 📚 unterscheiden wir zwischen drei verschiedenen Typen von Pa
 2. [Structural](#chapter-2)
 3. [Behavioral](#chapter-3)
 
-## 🆕 Creational Design Patterns <a id="chapter-1"></a>
+## Creational Design Patterns <a id="chapter-1"></a>
 
 Erzeugungsmuster konzentrieren sich darauf, wie man ein Objekt oder eine Gruppe von Objekten instanziiert.
 

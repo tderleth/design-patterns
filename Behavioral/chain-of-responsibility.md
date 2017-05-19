@@ -15,9 +15,6 @@
 #### Wann brauche ich das? 
 
 
-
-
-
 # Chain of responsibility
 Eine Möglichkeit einen Request entlang einer Kette weiterzugeben.
 
