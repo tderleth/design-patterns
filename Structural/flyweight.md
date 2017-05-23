@@ -49,11 +49,12 @@ $brush_2 = $quiver->takeBrush(2);  // creates new Brush bc it does not exist yet
 $brush_3 = $quiver->takeBrush(1);  // already exists
 // painting …
 
-if( $brush_1 === $brush_3)
+if($brush_1 === $brush_3)
 	echo "Same brush object used"
 else
 	echo "Two different brushes"
 
+// "Same brush object used"
 
 ?>
 ```
