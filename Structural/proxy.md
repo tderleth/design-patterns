@@ -2,10 +2,10 @@
 Ein Proxy versteht sich als Platzhalter für ein anderes Objekt.
 
 ## 🌍 Praktisches Beispiel
-Es gibt einige Situationen, in denen man ein Proxy einsetzen kann. Eine ist bswp. ein schützender Proxy, der die Zugriffsberechtigung auf Objekte steuert. Stellen wir uns dazu wieder eine Türe vor, die man mit einem Pin öffnen kann. Das Panel erlaubt es einem die Türe zu öffnen, obwohl die Funktionalität des Öffnen eigentlich bei dem Tür-Objekt liegt. Das Panel ist der Proxy.
+Es gibt einige Situationen, in denen man ein Proxy einsetzen kann. Eine ist bspw. ein schützender Proxy, der die Zugriffsberechtigung auf Objekte steuert. Stellen wir uns dazu wieder eine Türe vor, die man mit einem Pin öffnen kann. Das Panel erlaubt es einem die Türe zu öffnen, obwohl die Funktionalität des Öffnens eigentlich bei dem Tür-Objekt liegt. Das Panel ist der Proxy.
 
 ## 💬 In einfachen Worten
-Im Proxy Pattern repräsentiert eine Klasse die Funktionalität einer anderen Klasse. Im Vergleich zu einem Adapter, der ein verändertes Interface anbietet oder einem Decorator, der das Interface erweitert, bietet ein Proxy das selbe Interface an.
+Im Proxy Pattern repräsentiert eine Klasse die Funktionalität einer anderen Klasse. Im Vergleich zu einem Adapter, der ein verändertes Interface anbietet oder einem Decorator, der das Interface erweitert, bietet ein Proxy dasselbe Interface an.
 
 ## 🖥 Beispiel
 ```php
