@@ -10,8 +10,6 @@ Adapter erlauben es uns das Interface einer Klasse so zu adaptieren, dass es zu 
 
 
 ```php 
-<?php
-
 interface Car{
   public function drive();
 }
@@ -50,8 +48,6 @@ $airplaneAdapter = new AirplaneAdapter($airplane);
 
 $mechanic = new Mechanic();
 $mechanic->repair($airplaneAdapter);
-
-?>
 ```
 
 ## Wann brauche ich das? 

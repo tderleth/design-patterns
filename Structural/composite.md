@@ -8,63 +8,49 @@ Ein Kompositum erlaubt es einem Client verschiedene Objekte innerhalb einer Baum
 
 
 ## 🖥 Beispiel
-```php 
-<?php
-
+```php
 interface Node{
   public function __construct(string $name, float $size);
   public function getSize();
 }
 
 class File implements Node{
-
   protected $size;
   protected $name;
-
   public function __construct(string $name, float $size){
     $this->name = $name;
     $this->size = $size;
   }
-
   public function getSize(){
     return $this->size;
   }
 }
 
 class Folder implements Node{
-
   protected $size;
   protected $name;
-
   public function __construct(string $name, float $size){
     $this->name = $name;
     $this->size = $size;
   }
-
   public function getSize(){
     return $this->size;
   }
 }
-
 // Unsere Festplatte mit verschiedenen Knoten
 class Disk{
-
   protected $nodes;
-
   public function addNode(Node $node){
     $this->nodes[] = $node;
   }
-
   public function getSizeOfAll(){
     $size = 0;
     foreach ($this->nodes as $node) {
       $size += $node->getSize();
     }
-
     return $size;
   }
 }
-
 
 $file = new File('Hello.txt', 12000);
 $folder = new Folder('Hello-folder', 10000);
@@ -74,6 +60,4 @@ $disk->addNode($file);
 $disk->addNode($folder);
 
 echo "Disk space used: ".$disk->getSize(); // Disk space used: 22000
-
-?>
 ```

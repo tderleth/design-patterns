@@ -14,10 +14,7 @@ Um das Bridge Pattern zu verstehen, stellen wir uns vor wir würden uns in einem
 Bei dem Bridge Pattern wird eine Komposition der Vererbung vorgezogen. Die Details der Implementierung werden damit in eine zweite Hierarchie verschoben. 
 
 ## 🖥 Beispiel
-
 ```php 
-<?php
-
 interface Car{
   public function __construct(Color $color);
   public function getDescription();
@@ -68,6 +65,4 @@ $Cabrio = new Cabrio(new BlueColor());
 
 $minivan->getDescription();   // Output: I´m a Minivan in red
 $Cabrio->getDescription();  // Output: I´m a Cabrio in blue
-
-?>
 ```

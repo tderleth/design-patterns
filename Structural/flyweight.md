@@ -21,16 +21,11 @@ Wir verringern die Anzahl an Objekten, indem wir erst schauen, ob bereits ein f√
 Greifen wir das obige Beispiel mit den Pinseln noch einmal auf: 
 
 ```php 
-<?php
+class Brush {}
 
-class Brush{}
-
-class Quiver
-{
+class Quiver {
   protected $availableBrush = [];
-
-  public function takeBrush($size)
-  {
+  public function takeBrush($size){
     if (empty($this->availableBrush[$size])) {
       $this->availableBrush[$size] = new Brush();
     }
@@ -52,9 +47,5 @@ $brush_3 = $quiver->takeBrush(1);  // already exists
 if($brush_1 === $brush_3)
 	echo "Same brush object used"
 else
-	echo "Two different brushes"
-
-// "Same brush object used"
-
-?>
+	echo "Two different brushes" // "Same brush object used"
 ```

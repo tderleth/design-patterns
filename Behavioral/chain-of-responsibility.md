@@ -7,9 +7,9 @@
 ## 🖥 Beispiel
 
 ```php 
-<?php
 
-?>
+
+
 ```
 
 ## Wann brauche ich das? 
@@ -46,7 +46,7 @@ Eine Möglichkeit einen Request entlang einer Kette weiterzugeben.
 ## Beispiel
 
 ~~~php
-<?php
+
 
 abstract class BasicHandler {
 
@@ -87,7 +87,7 @@ $secondHandler->setSuccessor($thirdHandler);
 // start to process the chain
 $response = $firstHandler->handle($request);
 
-?>
+
 ~~~
 
 
