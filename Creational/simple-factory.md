@@ -10,8 +10,6 @@ Eine einfache Fabrik erzeugt ein Objekt für einen Client, wobei der Client die 
 
 ## 🖥 Beispiel
 ```php
-<?php
-
 interface Door {
   public function getWidth();
   public function getHeight();
@@ -40,8 +38,6 @@ class DoorFactory {
 
 $door = DoorFactory::createDoor(100,200);
 echo 'Width: ' . $door->getWidth();
-
-?>
 ```
 
 

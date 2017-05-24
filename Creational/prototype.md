@@ -9,8 +9,6 @@ Ein Objekt wird, basierend auf einem anderen Objekt, durch Klonen erstellt. Erla
 ## 🖥 Beispiel
 
 ```php
-<?php 
-
 class Sheep {
   protected $name;
   public function __construct($name) {
@@ -31,8 +29,6 @@ echo $original->getName(); // Molly
 $cloned = clone $original;
 $cloned->setName('Dolly');
 echo $cloned->getName(); // Dolly
-
-?>
 ```
 
 ## Wann brauche ich das? 

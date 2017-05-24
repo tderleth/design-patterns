@@ -9,8 +9,6 @@ Die Fabrik Methode erzeugt ein Objekt für einen Client, wobei die Fabrik entsch
 ## 🖥 Beispiel
 
 ```php
-<?php
-
 interface Door {
   public function getDescription();
 }
@@ -40,8 +38,6 @@ class DoorFactory {
 
 $woodendoor = DoorFactory::createDoor("wooden");
 echo $woodendoor->getDescription(); // Output: I am an wooden door
-
-?>
 ```
 
 

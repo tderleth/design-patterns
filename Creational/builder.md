@@ -11,7 +11,6 @@ Die Anzahl an Parametern, die dem Konstruktor übergeben werden, kann schnell ü
 Den `BurgerBuilder` übergeben wir dabei dem Konstruktor des Burgers!
 
 ```php
-
 class Burger {
   protected $size;
   protected $cheese = false;
@@ -43,8 +42,7 @@ class BurgerBuilder {
   }
 }
 
-$burger = (new BurgerBuilder(14))->addTomato()->build();
-          
+$burger = (new BurgerBuilder(14))->addTomato()->build();      
 ```
 
 ## Wann brauche ich das? 
