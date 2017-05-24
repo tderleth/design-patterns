@@ -16,39 +16,39 @@ Im Proxy Pattern repräsentiert eine Klasse die Funktionalität einer anderen Kl
 ```php
 
 interface Door{
-    public function open();
-    public function close();
+  public function open();
+  public function close();
 }
 
 class ProtectedDoor implements Door{
 
-    public function open(){
-        echo "Opening protected door";
-    }
+  public function open(){
+    echo "Opening protected door";
+  }
 
-    public function close(){
-        echo "Closing the protected door";
-    }
+  public function close(){
+    echo "Closing the protected door";
+  }
 }
 
 class Panel
 {
-    protected $door;
+  protected $door;
 
-    public function __construct(Door $door){
-        $this->door = $door;
-    }
+  public function __construct(Door $door){
+    $this->door = $door;
+  }
 
-    public function open($password){
-        if ($password === 'pr0xyIsC00l')
-            $this->door->open();
-        else
-            echo "No entering :/";
-    }
+  public function open($password){
+    if ($password === 'pr0xyIsC00l')
+      $this->door->open();
+    else
+      echo "No entering :/";
+  }
 
-    public function close(){
-        $this->door->close();
-    }
+  public function close(){
+    $this->door->close();
+  }
 }
 
 $door = new Panel(new ProtectedDoor());

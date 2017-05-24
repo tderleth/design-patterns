@@ -12,57 +12,57 @@ Ein Kompositum erlaubt es einem Client verschiedene Objekte innerhalb einer Baum
 <?php
 
 interface Node{
-    public function __construct(string $name, float $size);
-    public function getSize();
+  public function __construct(string $name, float $size);
+  public function getSize();
 }
 
 class File implements Node{
 
-    protected $size;
-    protected $name;
+  protected $size;
+  protected $name;
 
-    public function __construct(string $name, float $size){
-        $this->name = $name;
-        $this->size = $size;
-    }
+  public function __construct(string $name, float $size){
+    $this->name = $name;
+    $this->size = $size;
+  }
 
-    public function getSize(){
-        return $this->size;
-    }
+  public function getSize(){
+    return $this->size;
+  }
 }
 
 class Folder implements Node{
 
-    protected $size;
-    protected $name;
+  protected $size;
+  protected $name;
 
-    public function __construct(string $name, float $size){
-        $this->name = $name;
-        $this->size = $size;
-    }
+  public function __construct(string $name, float $size){
+    $this->name = $name;
+    $this->size = $size;
+  }
 
-    public function getSize(){
-        return $this->size;
-    }
+  public function getSize(){
+    return $this->size;
+  }
 }
 
 // Unsere Festplatte mit verschiedenen Knoten
 class Disk{
 
-    protected $nodes;
+  protected $nodes;
 
-    public function addNode(Node $node){
-        $this->nodes[] = $node;
+  public function addNode(Node $node){
+    $this->nodes[] = $node;
+  }
+
+  public function getSizeOfAll(){
+    $size = 0;
+    foreach ($this->nodes as $node) {
+      $size += $node->getSize();
     }
 
-    public function getSizeOfAll(){
-        $size = 0;
-        foreach ($this->nodes as $node) {
-            $size += $node->getSize();
-        }
-
-        return $size;
-    }
+    return $size;
+  }
 }
 
 

@@ -27,15 +27,15 @@ class Brush{}
 
 class Quiver
 {
-    protected $availableBrush = [];
+  protected $availableBrush = [];
 
-    public function takeBrush($size)
-    {
-        if (empty($this->availableBrush[$size])) {
-            $this->availableBrush[$size] = new Brush();
-        }
-        return $this->availableBrush[$size];
+  public function takeBrush($size)
+  {
+    if (empty($this->availableBrush[$size])) {
+      $this->availableBrush[$size] = new Brush();
     }
+    return $this->availableBrush[$size];
+  }
 }
 
 $quiver = new Quiver();

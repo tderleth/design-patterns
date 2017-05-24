@@ -19,36 +19,36 @@ Bei dem Bridge Pattern wird eine Komposition der Vererbung vorgezogen. Die Detai
 <?php
 
 interface Car{
-    public function __construct(Color $color);
-    public function getDescription();
+  public function __construct(Color $color);
+  public function getDescription();
 }
 
 class Minivan implements Car{
-    protected $color;
+  protected $color;
 
-    public function __construct(Color $color){
-        $this->color = $color;
-    }
+  public function __construct(Color $color){
+    $this->color = $color;
+  }
 
-    public function getDescription(){
-        return "I´m a Minivan in " . $this->color->getColor();
-    }    
+  public function getDescription(){
+    return "I´m a Minivan in " . $this->color->getColor();
+  }  
 }
 
 class Cabrio implements Car{
-    protected $color;
+  protected $color;
 
-    public function __construct(Color $color){
-        $this->color = $color;
-    }
+  public function __construct(Color $color){
+    $this->color = $color;
+  }
 
-    public function getDescription(){
-        return "I´m a Cabrio in " . $this->color->getColor();
-    }
+  public function getDescription(){
+    return "I´m a Cabrio in " . $this->color->getColor();
+  }
 }
 
 interface Color{
-    public function getColor();
+  public function getColor();
 }
 
 class RedColor implements Color {
@@ -67,7 +67,7 @@ $minivan = new Minivan(new RedColor());
 $Cabrio = new Cabrio(new BlueColor());
 
 $minivan->getDescription();   // Output: I´m a Minivan in red
-$Cabrio->getDescription();    // Output: I´m a Cabrio in blue
+$Cabrio->getDescription();  // Output: I´m a Cabrio in blue
 
 ?>
 ```

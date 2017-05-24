@@ -20,7 +20,6 @@ class WoodenDoor implements Door{
   public function getDescription() {
     echo 'I am a wooden door';
   }
-
 }
 
 class IronDoor implements Door{
@@ -28,7 +27,6 @@ class IronDoor implements Door{
   public function getDescription() {
     echo 'I am an iron door';
   }
-
 }
 
 interface DoorFrame{
@@ -40,7 +38,6 @@ class WoodenDoorFrame implements DoorFrame {
   public function getDescription() {
     echo 'I am an wooden door frame';
   }
-  
 }
 
 class IronDoorFrame implements DoorFrame {
@@ -48,7 +45,6 @@ class IronDoorFrame implements DoorFrame {
   public function getDescription() {
     echo 'I am an iron door frame';
   }
-  
 }
 
 interface DoorFactory {
@@ -65,7 +61,6 @@ class WoodenDoorFactory implements DoorFactory{
   public function createDoorFrame(){
     return new WoodenDoorFrame();
   }
-  
 }
 
 class IronDoorFactory implements DoorFactory{
@@ -77,7 +72,6 @@ class IronDoorFactory implements DoorFactory{
   public function createDoorFrame(){
     return new IronDoorFrame();
   }
-
 }
 
 $woodenFactory = new WoodenDoorFactory();

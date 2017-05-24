@@ -41,7 +41,7 @@ $president1 = President::getInstance();
 $president2 = President::getInstance();
 
 if($president1 === $president2){
-	echo "there is just one Donald Trump";
+  echo "there is just one Donald Trump";
 }
 ```
 

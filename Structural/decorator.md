@@ -13,35 +13,35 @@ Durch das Kapseln eines Objektes in ein anderes Objekt (Decorator) können wir d
 <?php
 
 interface Coffee{
-    public function getCost();
-    public function getDescription();
+  public function getCost();
+  public function getDescription();
 }
 
 class SimpleCoffee implements Coffee{
-    public function getCost(){
-        return 3;
-    }
+  public function getCost(){
+    return 3;
+  }
 
-    public function getDescription(){
-        return 'Simple coffee';
-    }
+  public function getDescription(){
+    return 'Simple coffee';
+  }
 }
 
 class MilkCoffee implements Coffee{
-    protected $coffee;
+  protected $coffee;
 
-    public function __construct(Coffee $coffee)
-    {
-        $this->coffee = $coffee;
-    }
+  public function __construct(Coffee $coffee)
+  {
+    $this->coffee = $coffee;
+  }
 
-    public function getCost(){
-        return $this->coffee->getCost() + 1;
-    }
+  public function getCost(){
+    return $this->coffee->getCost() + 1;
+  }
 
-    public function getDescription(){
-        return $this->coffee->getDescription() . ', milk';
-    }
+  public function getDescription(){
+    return $this->coffee->getDescription() . ', milk';
+  }
 }
 
 $someCoffee = new SimpleCoffee();
