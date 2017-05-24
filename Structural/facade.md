@@ -16,30 +16,29 @@ Stellen wir uns den Vollautomaten vor:
 
 class CoffeeMachine{
 
-		public function crush_beans(){…}
-		public function heat_milk(){…}
-		public function fill_cup(){…}
-		public function display_output_on_display(){
-        echo "Coffee ready!";
-    }
-    
+	public function crush_beans(){…}
+	public function heat_milk(){…}
+	public function fill_cup(){…}
+	public function display_output_on_display(){
+		echo "Coffee ready!";
+	}
+
 }
 
 class CoffeeMachineFacade
 {
-    protected $coffeeMachine;
+	protected $coffeeMachine;
 
-    public function __construct(CoffeeMachine $coffeeMachine)
-    {
-        $this->coffeeMachine = $coffeeMachine;
-    }
+	public function __construct(CoffeeMachine $coffeeMachine){
+		$this->coffeeMachine = $coffeeMachine;
+	}
 
-    public function getLatte(){
-        $this->coffeeMachine->heat_milk();
-        $this->coffeeMachine->crush_beans();
-        $this->coffeeMachine->fill_cup();
-        $this->coffeeMachine->display_output_on_display();
-    }
+	public function getLatte(){
+		$this->coffeeMachine->heat_milk();
+		$this->coffeeMachine->crush_beans();
+		$this->coffeeMachine->fill_cup();
+		$this->coffeeMachine->display_output_on_display();
+	}
 }
 
 $coffeeMachine = new CoffeeMachineFacade(new CoffeeMachineFacade());
