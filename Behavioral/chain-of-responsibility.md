@@ -1,10 +1,10 @@
-### Chain of Responsibility
+# Chain of Responsibility
 
-#### 🌍 Echtes Weltbeispiel
+## 🌍 Echtes Weltbeispiel
 
 
-#### 💬 In einfachen Worten
-#### 🖥 Beispiel
+## 💬 In einfachen Worten
+## 🖥 Beispiel
 
 ```php 
 <?php
@@ -12,7 +12,7 @@
 ?>
 ```
 
-#### Wann brauche ich das? 
+## Wann brauche ich das? 
 
 
 # Chain of responsibility

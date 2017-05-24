@@ -1,12 +1,12 @@
-### Builder
+# Builder
 
-#### 🌍 Echtes Weltbeispiel
+## 🌍 Echtes Weltbeispiel
 Stell dir vor du sitzt bei Hans im Glück und bestellst einen Burger 🍔. Die Bedienung fragt dich bei deiner Bestellung meist nach der Brotsorte, ob du extra Tomaten 🍅 haben möchtest oder Käse 🧀. Von der Soße ganz abgesehen. Hier kommen wir mit unserer Simple Factory nicht weit, da wir für die verschiedenen Konstellationen eine Menge Konstruktoren bräuchten. Das Builder Pattern hilft uns hierbei aus.
 
-#### 💬 In einfachen Worten
+## 💬 In einfachen Worten
 Die Anzahl an Parametern, die dem Konstruktor übergeben werden, kann schnell überhand nehmen und es wird dann schwierig die Reihenfolge der Parameter zu identifizieren. Diese Pattern ermöglicht es uns, verschiedene Ausprägungen eines Objekts zu erstellen und dabei den Konstruktor nicht mit unnötiger Komplexität zu überladen.
 
-#### 🖥 Beispiel
+## 🖥 Beispiel
 
 Den `BurgerBuilder` übergeben wir dabei dem Konstruktor des Burgers!
 
@@ -52,5 +52,5 @@ $burger = (new BurgerBuilder(14))->addTomato()->build();
                     
 ```
 
-#### Wann brauche ich das? 
+## Wann brauche ich das? 
 Wenn es verschiedenen Ausprägungen eines Objektes gibt. Der Unterschied zur Fabrik ist, dass der Builder verwendet werden sollte, wenn zur Erstellung des Objekts mehrere Schritte nötig sind.

@@ -1,12 +1,12 @@
-### [Singleton](/singleton.md)
+# [Singleton](/singleton.md)
 
-#### 🌍 Echtes Weltbeispiel
+## 🌍 Echtes Weltbeispiel
 Es kann nur einen Präsidenten eines Landes gleichzeitig geben. Dieser muss immer handeln, wenn es von ihm gefordert wird. 
 
-#### 💬 In einfachen Worten
+## 💬 In einfachen Worten
 Singleton Patterns stellt sicher, dass es zur selben Zeit nur ein einziges Objekt einer Klasse gibt und kein zweites davon instanziiert werden kann. 
 
-#### 🖥 Beispiel
+## 🖥 Beispiel
 
 Um ein Singleton in PHP zu erstellen, muss: 
 
@@ -45,6 +45,6 @@ if($president1 === $president2){
 }
 ```
 
-#### Wann brauche ich das? 
+## Wann brauche ich das? 
 Immer wenn du von einem Objekt wirklich nur eine Instanz haben möchtest, zum Beispiel für eine Konfiguration. Auch ist ein HTTP Response Object meist ein Singleton. Aber **VORSICHT**: Singletons sorgen auch für eine enge Kopplung! 
 

@@ -1,1 +1,1 @@
-### Strategy
+# Strategy

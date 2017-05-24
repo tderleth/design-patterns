@@ -1,12 +1,12 @@
-### Adapter
+# Adapter
 
-#### 🌍 Echtes Weltbeispiel
+## 🌍 Echtes Weltbeispiel
 Adapter sind uns allen ein Begriff – sei es im Urlaub für die Steckdose oder für unsere geliebten Smartphones 📱. Für unser Beispiel stellen wir uns einen Mechaniker 👩‍🔧 vor, der normalerweise Autos 🚗  repariert. Nun wollen wir aber, dass unser Mechaniker nicht nur Autos, sondern auch Flugzeuge ✈️️ repariert. Dabei gehen wir davon aus, dass sich Flugzeuge im Wesentlichen nicht sehr viel von Autos unterscheiden. Wir packen dazu unser Flugzeug in einen Adapter. 
 
-#### 💬 In einfachen Worten
+## 💬 In einfachen Worten
 Adapter erlauben es uns das Interface einer Klasse so zu adaptieren, dass es zu anderen Klassen kompatibel ist. Dazu wird das Objekt in ein Adapter gekapselt. Dazu muss die der Source Code der eigentlichen Klasse nicht verändert werden. 
 
-#### 🖥 Beispiel
+## 🖥 Beispiel
 
 
 ```php 
@@ -54,5 +54,5 @@ $mechanic->repair($airplaneAdapter);
 ?>
 ```
 
-#### Wann brauche ich das? 
+## Wann brauche ich das? 
 Dieses Pattern solltest du einsetzen, wenn du ein bereits existierendes Objekt hast und das Interface des Objektes ändern musst. 
