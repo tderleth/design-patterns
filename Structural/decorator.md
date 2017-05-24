@@ -10,29 +10,29 @@ Durch das Kapseln eines Objektes in ein anderes Objekt (Decorator) können wir d
 
 
 ```php
-interface Coffee{
+interface Coffee {
   public function getCost();
   public function getDescription();
 }
 
-class SimpleCoffee implements Coffee{
-  public function getCost(){
+class SimpleCoffee implements Coffee {
+  public function getCost() {
     return 3;
   }
-  public function getDescription(){
+  public function getDescription() {
     return 'Simple coffee';
   }
 }
 
-class MilkCoffee implements Coffee{
+class MilkCoffee implements Coffee {
   protected $coffee;
-  public function __construct(Coffee $coffee){
+  public function __construct(Coffee $coffee) {
     $this->coffee = $coffee;
   }
-  public function getCost(){
+  public function getCost() {
     return $this->coffee->getCost() + 1;
   }
-  public function getDescription(){
+  public function getDescription() {
     return $this->coffee->getDescription() . ', milk';
   }
 }

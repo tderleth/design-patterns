@@ -15,47 +15,43 @@ Bei dem Bridge Pattern wird eine Komposition der Vererbung vorgezogen. Die Detai
 
 ## 🖥 Beispiel
 ```php 
-interface Car{
+interface Car {
   public function __construct(Color $color);
   public function getDescription();
 }
 
-class Minivan implements Car{
+class Minivan implements Car {
   protected $color;
-
-  public function __construct(Color $color){
+  public function __construct(Color $color) {
     $this->color = $color;
   }
-
-  public function getDescription(){
+  public function getDescription() {
     return "I´m a Minivan in " . $this->color->getColor();
   }  
 }
 
-class Cabrio implements Car{
+class Cabrio implements Car {
   protected $color;
-
-  public function __construct(Color $color){
+  public function __construct(Color $color) {
     $this->color = $color;
   }
-
-  public function getDescription(){
+  public function getDescription() {
     return "I´m a Cabrio in " . $this->color->getColor();
   }
 }
 
-interface Color{
+interface Color {
   public function getColor();
 }
 
 class RedColor implements Color {
-	function getColor(){
+	function getColor() {
 		return "red";
 	}
 }
 
 class BlueColor implements Color {
-	function getColor(){
+	function getColor() {
 		return "blue";
 	}
 }

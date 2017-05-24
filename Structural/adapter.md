@@ -10,34 +10,34 @@ Adapter erlauben es uns das Interface einer Klasse so zu adaptieren, dass es zu 
 
 
 ```php 
-interface Car{
+interface Car {
   public function drive();
 }
 
-class Cabrio implements Car{
-  public function drive(){…}
+class Cabrio implements Car {
+  public function drive() {…}
 }
 
-class Suv implements Car{
-  public function drive(){…}
+class Suv implements Car {
+  public function drive() {…}
 }
 
-class Mechanic{
-  public function repair(Car $car){…}
+class Mechanic {
+  public function repair(Car $car) {…}
 }
 
-class Airplane{
-  public function fly(){…}
+class Airplane {
+  public function fly() {…}
 }
 
-class AirplaneAdapter implements Car{
+class AirplaneAdapter implements Car {
   protected $airplane;
 
-  public function __construct(Airplane $airplane){
+  public function __construct(Airplane $airplane) {
     $this->airplane = $airplane;
   }
 
-  public function drive(){
+  public function drive() {
     $this->airplane->fly();
   }
   

@@ -12,21 +12,21 @@ Eine Fassade bietet ein einfaches Interface zu einem komplizierteren System!
 Stellen wir uns den Vollautomaten vor:
 
 ```php 
-class CoffeeMachine{
-	public function crush_beans(){…}
-	public function heat_milk(){…}
-	public function fill_cup(){…}
-	public function display_output_on_display(){
+class CoffeeMachine {
+	public function crush_beans() {…}
+	public function heat_milk() {…}
+	public function fill_cup() {…}
+	public function display_output_on_display() {
 		echo "Coffee ready!";
 	}
 }
 
 class CoffeeMachineFacade {
 	protected $coffeeMachine;
-	public function __construct(CoffeeMachine $coffeeMachine){
+	public function __construct(CoffeeMachine $coffeeMachine) {
 		$this->coffeeMachine = $coffeeMachine;
 	}
-	public function getLatte(){
+	public function getLatte() {
 		$this->coffeeMachine->heat_milk();
 		$this->coffeeMachine->crush_beans();
 		$this->coffeeMachine->fill_cup();

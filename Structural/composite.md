@@ -9,41 +9,41 @@ Ein Kompositum erlaubt es einem Client verschiedene Objekte innerhalb einer Baum
 
 ## 🖥 Beispiel
 ```php
-interface Node{
+interface Node {
   public function __construct(string $name, float $size);
   public function getSize();
 }
 
-class File implements Node{
+class File implements Node {
   protected $size;
   protected $name;
-  public function __construct(string $name, float $size){
+  public function __construct(string $name, float $size) {
     $this->name = $name;
     $this->size = $size;
   }
-  public function getSize(){
+  public function getSize() {
     return $this->size;
   }
 }
 
-class Folder implements Node{
+class Folder implements Node {
   protected $size;
   protected $name;
-  public function __construct(string $name, float $size){
+  public function __construct(string $name, float $size) {
     $this->name = $name;
     $this->size = $size;
   }
-  public function getSize(){
+  public function getSize() {
     return $this->size;
   }
 }
 // Unsere Festplatte mit verschiedenen Knoten
-class Disk{
+class Disk {
   protected $nodes;
-  public function addNode(Node $node){
+  public function addNode(Node $node) {
     $this->nodes[] = $node;
   }
-  public function getSizeOfAll(){
+  public function getSizeOfAll() {
     $size = 0;
     foreach ($this->nodes as $node) {
       $size += $node->getSize();
