@@ -16,10 +16,10 @@ Stellen wir uns den Vollautomaten vor:
 
 class CoffeeMachine{
 
-    public function crush_beans(){…}
-    public function heat_milk(){…}
+		public function crush_beans(){…}
+		public function heat_milk(){…}
 		public function fill_cup(){…}
-	  public function display_output_on_display(){
+		public function display_output_on_display(){
         echo "Coffee ready!";
     }
     
