@@ -1,4 +1,4 @@
-### [Chain of Responsibility](/chain-of-responsibility.md)
+### Chain of Responsibility
 
 #### 🌍 Echtes Weltbeispiel
 

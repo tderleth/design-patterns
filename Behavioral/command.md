@@ -1,1 +1,1 @@
-### [Command](/command.md)
+### Command

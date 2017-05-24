@@ -1,4 +1,4 @@
-### [Facade](/facade.md)
+### Facade
 
 #### 🌍 Echtes Weltbeispiel
 

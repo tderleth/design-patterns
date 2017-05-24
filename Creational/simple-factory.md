@@ -1,4 +1,4 @@
-### [Simple Factory](/simple-factory.md)
+### Simple Factory
 
 
 #### 🌍 Echtes Weltbeispiel

@@ -1,4 +1,4 @@
-### [Abstract Factory](/abstract-factory.md)
+### Abstract Factory
 
 #### 🌍 Echtes Weltbeispiel
 Um unser Beispiel mit den Türen 🚪 fortzuführen, stellen wir uns vor, wir benötigen nun nicht nur verschiedene Türen wie eine Stahltüre oder eine Türe aus Holz sondern wir brauchen natürlich auch einen Türrahmen, je nach Türe natürlich unterschiedlich. Wir sehen also, dass es Abhängigkeiten zwischen der Art der Türe und der Art des Rahmens gibt.

@@ -1,4 +1,4 @@
-### [Flyweight](/flyweight.md)
+### Flyweight
 
 Dieses Pattern lässt sich am einfachsten mit einem Web-Browser und dessen Cache erklären. Beim Flyweight dreht sich alles ums Teilen, Performance & um den Speicherbedarf. Lädt ein Browser eine Seite, iteriert er über alle Bilder, die in der Seite platziert sind und lädt alle Bilder neu, die nicht bereits in seinem Cache liegen. Für die bereits geladenen Bilder wird ein Flyweight-Objekt erstellt, das einige intrinsische Informationen wie Position innerhalb der Seite oder Anzeigegröße beinhaltet. Alles andere erbt es vom bereits gecacheten Objekt. Jedes Flyweight besteht dabei aus zwei Teilen: 
 

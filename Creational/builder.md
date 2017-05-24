@@ -1,4 +1,4 @@
-### [Builder](/builder.md)
+### Builder
 
 #### 🌍 Echtes Weltbeispiel
 Stell dir vor du sitzt bei Hans im Glück und bestellst einen Burger 🍔. Die Bedienung fragt dich bei deiner Bestellung meist nach der Brotsorte, ob du extra Tomaten 🍅 haben möchtest oder Käse 🧀. Von der Soße ganz abgesehen. Hier kommen wir mit unserer Simple Factory nicht weit, da wir für die verschiedenen Konstellationen eine Menge Konstruktoren bräuchten. Das Builder Pattern hilft uns hierbei aus.

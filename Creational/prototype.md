@@ -1,4 +1,4 @@
-### [Prototype](/prototype.md)
+### Prototype
 
 #### 🌍 Echtes Weltbeispiel
 Kannst du dich noch an Dolly 🐑 das erste geklonte Schaf erinnern? Richtig, bei diesem Pattern geht es ums Klonen 👯!

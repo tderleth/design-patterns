@@ -1,4 +1,4 @@
-### [Factory Method](/factory-method.md)
+### Factory Method
 
 #### 🌍 Echtes Weltbeispiel
 Für unser Haus 🏠 brauchen wir nun nicht nur einfach Türen 🚪, sondern verschiedene Türen! Wir geben unserer Fabrik zum Beispiel eine Türe aus Holz und eine aus Stahl in Auftrag.

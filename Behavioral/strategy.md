@@ -1,1 +1,1 @@
-### [Strategy](/strategy.md)
+### Strategy

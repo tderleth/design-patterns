@@ -1,2 +1,1 @@
-### [Template Method](/template-method.md)
-
+### Template Method

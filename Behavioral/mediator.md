@@ -1,2 +1,1 @@
-### [Mediator](/mediator.md)
-
+### Mediator

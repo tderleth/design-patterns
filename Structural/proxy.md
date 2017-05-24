@@ -1,4 +1,4 @@
-### [Proxy](/proxy.md)
+### Proxy
 
 Ein Proxy versteht sich als Platzhalter für ein anderes Objekt.
 
