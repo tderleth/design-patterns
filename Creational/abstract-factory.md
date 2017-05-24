@@ -9,7 +9,6 @@ Eine Fabrik, die die einzelnen, aber abhängigen Fabriken zusammenzieht, ohne ih
 ## 🖥 Beispiel
 
 ```php 
-<?php 
 
 interface Door {
   public function getDescription();
@@ -73,7 +72,7 @@ $doorFrame = $woodenFactory->createDoorFrame();
 $door->getDescription();    // Output: I am a wooden door
 $doorFrame->getDescription(); // Output: I am an wooden door frame
 
-?>
+
 ```
 
 Wir sehen also, dass die `WoodenDoorFactory` die Holztüre und den Holzrahmen gekapselt hat, genauso wie die `IronDoorFactory` die Stahltüre und den Stahlrahmen! Erstellen wir nun also eine Türe mit Hilfe der Fabrik, bekommen wir den passenden Rahmen gleich mitgeliefert!
