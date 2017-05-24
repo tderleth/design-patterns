@@ -30,11 +30,9 @@ class Airplane {
 
 class AirplaneAdapter implements Car {
   protected $airplane;
-
   public function __construct(Airplane $airplane) {
     $this->airplane = $airplane;
   }
-
   public function drive() {
     $this->airplane->fly();
   }
