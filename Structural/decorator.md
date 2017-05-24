@@ -7,8 +7,6 @@ Für diese Pattern stellen wir uns vor wir schreiben die Getränkekarte eines Ca
 Durch das Kapseln eines Objektes in ein anderes Objekt (Decorator) können wir dem ursprünglichen Objekt zur Laufzeit dynamisch Eigenschaften und Verhalten beibringen.
 
 ## 🖥 Beispiel
-
-
 ```php
 interface Coffee {
   public function getCost();

@@ -8,9 +8,7 @@ Magst du Latte macchiato? Stell dir einen Vollautomaten vor. Du drückst eine Ta
 Eine Fassade bietet ein einfaches Interface zu einem komplizierteren System! 
 
 ## 🖥 Beispiel
-
 Stellen wir uns den Vollautomaten vor:
-
 ```php 
 class CoffeeMachine {
 	public function crush_beans() {…}

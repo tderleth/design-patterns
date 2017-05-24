@@ -7,8 +7,6 @@ Adapter sind uns allen ein Begriff – sei es im Urlaub für die Steckdose oder
 Adapter erlauben es uns das Interface einer Klasse so zu adaptieren, dass es zu anderen Klassen kompatibel ist. Dazu wird das Objekt in ein Adapter gekapselt. Dazu muss die der Source Code der eigentlichen Klasse nicht verändert werden. 
 
 ## 🖥 Beispiel
-
-
 ```php 
 interface Car {
   public function drive();

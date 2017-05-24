@@ -9,7 +9,6 @@ Um das Bridge Pattern zu verstehen, stellen wir uns vor wir würden uns in einem
 *Bridge*
 /images/brdige.png
 
-
 ## 💬 In einfachen Worten
 Bei dem Bridge Pattern wird eine Komposition der Vererbung vorgezogen. Die Details der Implementierung werden damit in eine zweite Hierarchie verschoben. 
 

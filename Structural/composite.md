@@ -6,7 +6,6 @@ Jedes Dateisystem setzt sich aus Ordnern und Dateien zusammen. Jeder dieser Knot
 ## 💬 In einfachen Worten
 Ein Kompositum erlaubt es einem Client verschiedene Objekte innerhalb einer Baumstruktur gleich zu behandeln, seien sie nun ein Knoten oder ein Blatt. 
 
-
 ## 🖥 Beispiel
 ```php
 interface Node {
