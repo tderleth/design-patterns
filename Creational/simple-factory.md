@@ -1,8 +1,6 @@
 # Simple Factory
 
-
-## 🌍 Echtes Weltbeispiel
-
+## 🌍 Praktisches Beispiel
 Stellen wir uns vor, wir wollen ein Haus 🏠 mit Türen 🚪 bauen. Es wäre ziemlich chaotisch, wenn wir jedes Mal, wenn wir eine Türe benötigen uns eine Tischlerkleidung anziehen und eine Türe 🚪 tischlern. Daher geben wir das Ganze bei einer Fabrik in Auftrag. Was braucht die Fabrik dazu? Richtig, eine Bestellung mit den Eigenschaften der Türe!
 
 ## 💬 In einfachen Worten

@@ -1,6 +1,6 @@
 # Composite
 
-## 🌍 Echtes Weltbeispiel
+## 🌍 Praktisches Beispiel
 Jedes Dateisystem setzt sich aus Ordnern und Dateien zusammen. Jeder dieser Knoten (ob Datei oder Ordner) hat die selben Eigenschaften, wie zum Beispiel Größe oder Erstellungsdatum. Mit Hilfe des Kompositionsmusters können dabei Unterschiede zwischen einzelnen Objekten (Dateien) und zusammengesetzten Objekten (Ordnern) verborgen werden. 
 
 ## 💬 In einfachen Worten

@@ -1,6 +1,6 @@
 # Adapter
 
-## 🌍 Echtes Weltbeispiel
+## 🌍 Praktisches Beispiel
 Adapter sind uns allen ein Begriff – sei es im Urlaub für die Steckdose oder für unsere geliebten Smartphones 📱. Für unser Beispiel stellen wir uns einen Mechaniker 👩‍🔧 vor, der normalerweise Autos 🚗  repariert. Nun wollen wir aber, dass unser Mechaniker nicht nur Autos, sondern auch Flugzeuge ✈️️ repariert. Dabei gehen wir davon aus, dass sich Flugzeuge im Wesentlichen nicht sehr viel von Autos unterscheiden. Wir packen dazu unser Flugzeug in einen Adapter. 
 
 ## 💬 In einfachen Worten

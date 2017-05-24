@@ -1,13 +1,12 @@
 # Prototype
 
-## 🌍 Echtes Weltbeispiel
+## 🌍 Praktisches Beispiel
 Kannst du dich noch an Dolly 🐑 das erste geklonte Schaf erinnern? Richtig, bei diesem Pattern geht es ums Klonen 👯!
 
 ## 💬 In einfachen Worten
 Ein Objekt wird, basierend auf einem anderen Objekt, durch Klonen erstellt. Erlaubt es uns also ein Objekt durch Kopieren zu erzeugen und für unsere Bedürfnisse anzupassen ohne es von Grund auf neu zu erstellen und anzupassen. 
 
 ## 🖥 Beispiel
-
 ```php
 class Sheep {
   protected $name;

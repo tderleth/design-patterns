@@ -1,6 +1,6 @@
 # Chain of Responsibility
 
-## 🌍 Echtes Weltbeispiel
+## 🌍 Praktisches Beispiel
 
 
 ## 💬 In einfachen Worten

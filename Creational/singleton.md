@@ -1,20 +1,19 @@
-# [Singleton](/singleton.md)
+# Singleton
 
-## 🌍 Echtes Weltbeispiel
+## 🌍 Praktisches Beispiel
 Es kann nur einen Präsidenten eines Landes gleichzeitig geben. Dieser muss immer handeln, wenn es von ihm gefordert wird. 
 
 ## 💬 In einfachen Worten
 Singleton Patterns stellt sicher, dass es zur selben Zeit nur ein einziges Objekt einer Klasse gibt und kein zweites davon instanziiert werden kann. 
 
 ## 🖥 Beispiel
-
-Um ein Singleton in PHP zu erstellen, muss: 
-
+Um ein Singleton in PHP zu erstellen, muss:
+ 
 - Der Konstruktor privat gesetzt werden,
 - Klonen muss deaktiviert werden,
 - eine statische Variable, die die Instanz referiert muss deklariert werden und
 - die Klasse sollte am besten als final definiert werden, damit Sie auch nicht extended werden kann.
-- Dazu brauchen wir noch eine get-Methode, die uns die Instanz übergibt. 
+- Dazu brauchen wir noch eine `get-Methode`, die uns die Instanz übergibt. 
 
 ```php
 final class President {

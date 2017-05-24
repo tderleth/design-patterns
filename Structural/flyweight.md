@@ -8,7 +8,7 @@ Dieses Pattern lässt sich am einfachsten mit einem Web-Browser und dessen Cache
 Zusammenfassend schauen wir zuerst, ob wir schon ein Objekt haben, das unseren Zweck erfüllt, ist das nicht der Fall erstellen wir ein neues. Das Flyweight wird dabei von einer Factory erzeugt und meist in einer Liste oder Array abgelegt. 
 
 
-## 🌍 Echtes Weltbeispiel
+## 🌍 Praktisches Beispiel
 
 Stellen wir uns vor, wir malen ein Bild. Wir benötigen dazu Pinsel und haben einen ganzen Köcher davon. Das sind unsere Flyweights. Fehlt ein Pinsel, den wir gerade benötigen, so kaufen wir ihn und stecken in danach wieder in unseren Köcher. Jeder Pinsel hat zustandsunabhängige Informationen, wie zum Beispiel sein Duktus und zustandsabhängige Eigenschaften, wie die Farbe, mit der wir ihn gerade verwenden wollen. 
 

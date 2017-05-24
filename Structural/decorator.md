@@ -1,6 +1,6 @@
 # Decorator
 
-## 🌍 Echtes Weltbeispiel
+## 🌍 Praktisches Beispiel
 Für diese Pattern stellen wir uns vor wir schreiben die Getränkekarte eines Cafés ☕. Wir bieten einen normalen Kaffee für 3💲 an. Wir möchten unseren Gästen aber auch einen Kaffee mit Milch 🥛 anbieten. Der Preis eines Milchkaffees entspricht dem Kaffeepreis plus 1💲. Wir dekorieren dazu zur Laufzeit unseren Kaffee dynamisch mit Milch! 
 
 ## 💬 In einfachen Worten
