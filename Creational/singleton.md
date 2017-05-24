@@ -18,29 +18,25 @@ Um ein Singleton in PHP zu erstellen, muss:
 
 ```php
 final class President {
-    private static $instance;
-
-    private function __construct() {
-        // Hide the constructor
+  private static $instance;
+  private function __construct() {
+    // Hide the constructor
+  }
+  public static function getInstance() : President {
+    if (!self::$instance) {
+      self::$instance = new self();
     }
-
-    public static function getInstance() : President {
-        if (!self::$instance) {
-            self::$instance = new self();
-        }
-        return self::$instance;
-    }
-
-    private function __clone() {
-        // Disable cloning
-    }
-
+    return self::$instance;
+  }
+  private function __clone() {
+    // Disable cloning
+  }
 }
 
 $president1 = President::getInstance();
 $president2 = President::getInstance();
 
-if($president1 === $president2){
+if($president1 === $president2) {
   echo "there is just one Donald Trump";
 }
 ```

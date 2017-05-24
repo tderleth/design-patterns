@@ -13,32 +13,29 @@ Eine einfache Fabrik erzeugt ein Objekt für einen Client, wobei der Client die 
 <?php
 
 interface Door {
-    public function getWidth();
-    public function getHeight();
+  public function getWidth();
+  public function getHeight();
 }
 
 class WoodenDoor implements Door {
-    private $width;
-    private $height;
-
-    public function __construct($width,$height) {
-        $this->width = $width;
-        $this->height = $height;
-    }
-
-    public function getWidth() {
-        return $this->width;
-    }
-
-    public function getHeight() {
-        return $this->height;
-    }
+  private $width;
+  private $height;
+  public function __construct($width,$height) {
+    $this->width = $width;
+    $this->height = $height;
+  }
+  public function getWidth() {
+    return $this->width;
+  }
+  public function getHeight() {
+    return $this->height;
+  }
 }
 
-class DoorFactory{
-    public static function createDoor($width, $height){
-        return new WoodenDoor($width, $height);
-    }
+class DoorFactory {
+  public static function createDoor($width, $height) {
+    return new WoodenDoor($width, $height);
+  }
 }
 
 $door = DoorFactory::createDoor(100,200);

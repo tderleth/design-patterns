@@ -16,7 +16,6 @@ class Burger {
   protected $size;
   protected $cheese = false;
   protected $tomato = false;
-
   public function __construct(BurgerBuilder $builder) {
     $this->size = $builder->size;
     $this->cheese = $builder->cheese;
@@ -28,21 +27,17 @@ class BurgerBuilder {
   public $size;
   public $cheese = false;
   public $tomato = false;
-
   public function __construct(int $size) {
     $this->size = $size;
   }
-
   public function addCheese() {
     $this->cheese = true;
     return $this;
   }
-
   public function addTomato() {
     $this->tomato = true;
     return $this;
   }
-
   public function build() : Burger {
     return new Burger($this);
   }

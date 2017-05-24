@@ -15,20 +15,20 @@ interface Door {
   public function getDescription();
 }
 
-class WoodenDoor implements Door{
+class WoodenDoor implements Door {
   public function getDescription() {
     echo 'I am a wooden door';
   }
 }
 
-class IronDoor implements Door{
+class IronDoor implements Door {
   public function getDescription() {
     echo 'I am an iron door';
   }
 }
 
-class DoorFactory{
-  public static function createDoor($type){
+class DoorFactory {
+  public static function createDoor($type) {
     if ($type === "wooden")
       return new WoodenDoor();
     else if ($type === "iron") {

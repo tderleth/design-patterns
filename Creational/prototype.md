@@ -12,19 +12,16 @@ Ein Objekt wird, basierend auf einem anderen Objekt, durch Klonen erstellt. Erla
 <?php 
 
 class Sheep {
-    protected $name;
-
-    public function __construct($name) {
-        $this->name = $name;
-    }
-
-    public function setName($name) {
-        $this->name = $name;
-    }
-
-    public function getName() {
-        return $this->name;
-    }
+  protected $name;
+  public function __construct($name) {
+    $this->name = $name;
+  }
+  public function setName($name) {
+    $this->name = $name;
+  }
+  public function getName() {
+    return $this->name;
+  }
 }
 
 $original = new Sheep('Molly');
