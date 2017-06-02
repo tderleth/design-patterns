@@ -23,7 +23,7 @@ abstract class BasicHandler {
 
 class FirstHandler extends BasicHandler {
   public function handle($request){
-    if( // i can handle the request ){
+    if( /* I can handle the request */ ){
       // provide a response
       return $response;
     } else {
