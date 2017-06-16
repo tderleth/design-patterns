@@ -47,3 +47,15 @@ Erzeugungsmuster konzentrieren sich darauf, wie man ein Objekt oder eine Gruppe 
 - [Strategy](/Behavioral/strategy.md)
 - [Template Method](/Behavioral/template-method.md)
 - [Visitor](/Behavioral/visitor.md)
+
+## Contribution
+Es fehlen derzeit noch folgende Patterns
+
+- [Iterator](/Behavioral/iterator.md)
+- [Mediator](/Behavioral/mediator.md)
+- [Memento](/Behavioral/memento.md)
+- [Observer](/Behavioral/observer.md)
+- [State](/Behavioral/state.md)
+- [Strategy](/Behavioral/strategy.md)
+- [Template Method](/Behavioral/template-method.md)
+- [Visitor](/Behavioral/visitor.md)
