@@ -56,5 +56,4 @@ Es fehlen derzeit noch folgende Patterns
 - [Memento](/Behavioral/memento.md)
 - [Observer](/Behavioral/observer.md)
 - [Strategy](/Behavioral/strategy.md)
-- [Template Method](/Behavioral/template-method.md)
 - [Visitor](/Behavioral/visitor.md)
