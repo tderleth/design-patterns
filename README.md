@@ -52,7 +52,6 @@ Erzeugungsmuster konzentrieren sich darauf, wie man ein Objekt oder eine Gruppe 
 Es fehlen derzeit noch folgende Patterns
 
 - [Mediator](/Behavioral/mediator.md)
-- [Memento](/Behavioral/memento.md)
 - [Observer](/Behavioral/observer.md)
 - [Strategy](/Behavioral/strategy.md)
 - [Visitor](/Behavioral/visitor.md)
