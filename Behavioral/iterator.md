@@ -1,8 +1,8 @@
 # Iterator
 
 ## 🌍 Praktisches Beispiel
-Du gehst mit einem unbändigen Hunger in ein Restaurant mit diversen Köstlichkeiten ("Container").
-Dort angekommen willst du alles beim Kellner bestellen ("Iterator"), dabei interessiert dich nur ob es noch etwas zu essen gibt ("hasNext()") und das tatsächliche nächste Gericht ("next()").
+Du gehst mit einem unbändigen Hunger in ein Restaurant mit diversen Köstlichkeiten (*Container*).
+Dort angekommen willst du alles beim Kellner (*Iterator*) bestellen, dabei interessiert dich nur ob es noch etwas zu essen gibt (*hasNext()*) und das tatsächliche nächste Gericht (*next()*).
 
 ## 💬 In einfachen Worten
 Dieses Pattern kapselt den Zugang zu einer Sequenz von Elementen.
@@ -29,10 +29,10 @@ public class FancyRestaurant implements Container {
 
    @Override
    public Iterator getIterator() {
-      return new DishIterator();
+      return new Waiter();
    }
 
-   private class DishIterator implements Iterator {
+   private class Waiter implements Iterator {
 
       private int index;
 
