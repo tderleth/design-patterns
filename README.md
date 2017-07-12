@@ -54,7 +54,6 @@ Es fehlen derzeit noch folgende Patterns
 - [Iterator](/Behavioral/iterator.md)
 - [Mediator](/Behavioral/mediator.md)
 - [Memento](/Behavioral/memento.md)
-- [State](/Behavioral/state.md)
+- [Observer](/Behavioral/observer.md)
 - [Strategy](/Behavioral/strategy.md)
-- [Template Method](/Behavioral/template-method.md)
 - [Visitor](/Behavioral/visitor.md)

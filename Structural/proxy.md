@@ -40,15 +40,15 @@ class Panel {
 }
 
 $door = new Panel(new ProtectedDoor());
-$door->open('invalid'); // No entering :/ 
+$door->open('invalid'); // No entering :/
 
 $door->open('pr0xyIsC00l'); // Opening protected door
 $door->close(); // Closing protected door
 ```
 
-## Wann brauche ich das? 
-Es gibt einige Situationen, in welchen sich ein Proxy anbietet: 
+## Wann brauche ich das?
+Es gibt einige Situationen, in welchen sich ein Proxy anbietet:
 
-1. Ein virtueller Proxy als Platzhalter für ein “teuer zu erstellendes” Objet. Das “echte” Objekt wird dann nur bei der ersten Anfrage erstellt. 
+1. Ein virtueller Proxy als Platzhalter für ein “teuer zu erstellendes” Objet. Das “echte” Objekt wird dann nur bei der ersten Anfrage erstellt.
 2. Ein remote-Proxy als lokaler Ansprechpartner für ein Objekt, das sich in einem anderen Adressbereich befindet.
-3. Ein schützender Proxy der den Zugriff auf sensible Objekte steuert. Überprüft, ob der Client Zugriffsberechtigungen für das Objekt hat. 
+3. Ein schützender Proxy der den Zugriff auf sensible Objekte steuert. Überprüft, ob der Client Zugriffsberechtigungen für das Objekt hat.
