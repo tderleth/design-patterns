@@ -1,8 +1,8 @@
 # Iterator
 
 ## 🌍 Praktisches Beispiel
-Du gehst mit einem unbändigen Hunger in ein Restaurant mit diversen Köstlichkeiten ("Container").
-Dort angekommen willst du alles beim Kellner bestellen ("Iterator"), dabei interessiert dich nur ob es noch etwas zu essen gibt ("hasNext()") und das tatsächliche nächste Gericht ("next()").
+Du gehst mit einem unbändigen Hunger in ein Restaurant mit diversen Köstlichkeiten (*Container*).
+Dort angekommen willst du alles beim Kellner bestellen (*Iterator*), dabei interessiert dich nur ob es noch etwas zu essen gibt (*hasNext()*) und das tatsächliche nächste Gericht (*next()*).
 
 ## 💬 In einfachen Worten
 Dieses Pattern kapselt den Zugang zu einer Sequenz von Elementen.
