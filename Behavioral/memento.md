@@ -8,15 +8,15 @@ magische Kiste (*Memento*) packen und später wiederherstellen (*undo* oder *rol
 ## 💬 In einfachen Worten
 Mit dem Memento Pattern könnt ihr den Zustand eines Objekts abbilden und zu einem späteren
 Zeitpunkt wiederherstellen, ohne die interne Struktur des Objektes zu kennen.
-Dabei verwalter der **Caretaker** den Zustand des **Originator** mithilfe des **Memento**.
+Dabei verwaltet der **Caretaker** den Zustand des **Originator** mithilfe des **Memento**.
 
 ## 🖥 Beispiel
 
 ```java
 // Memento.java
 public interface Memento {
-    public String getState();
-    public void setState(String state);
+  public String getState();
+  public void setState(String state);
 }
 
 // Originator.java
