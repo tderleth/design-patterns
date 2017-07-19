@@ -53,5 +53,4 @@ Es fehlen derzeit noch folgende Patterns
 
 - [Mediator](/Behavioral/mediator.md)
 - [Observer](/Behavioral/observer.md)
-- [Strategy](/Behavioral/strategy.md)
 - [Visitor](/Behavioral/visitor.md)
