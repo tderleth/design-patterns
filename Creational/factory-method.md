@@ -1,12 +1,15 @@
 # Factory Method
 
 ## 🌍 Praktisches Beispiel
+
 Für unser Haus 🏠 brauchen wir nun nicht nur einfach Türen 🚪, sondern verschiedene Türen! Wir geben unserer Fabrik zum Beispiel eine Türe aus Holz und eine aus Stahl in Auftrag.
 
 ## 💬 In einfachen Worten
-Die Fabrik Methode erzeugt ein Objekt für einen Client, wobei die Fabrik entscheidet, welche Unterklasse instanziiert wird. 
+
+Die Fabrik Methode erzeugt ein Objekt für einen Client, wobei die Fabrik entscheidet, welche Unterklasse instanziiert wird.
 
 ## 🖥 Beispiel
+
 ```php
 interface Door {
   public function getDescription();
@@ -40,4 +43,5 @@ echo $woodendoor->getDescription(); // Output: I am an wooden door
 ```
 
 ## Wann brauche ich das?
-Wenn der Client nicht wissen muss, welches Objekt er genau von der Fabrik haben möchte. 
+
+Wenn der Client nicht wissen muss, welches Objekt er genau von der Fabrik haben möchte. te.

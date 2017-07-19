@@ -2,7 +2,7 @@
 
 ## 🌍 Praktisches Beispiel
 
-Kennst du den Passierschein A38? Richtig, den aus Asterix und Obelix. Was hat das mit der chain of responsibility zu tun? Einfach: Die beiden haben eine Anfrage  (unser Request) und es gibt potentiell variabel viele Personen (unsere Request-Handler), die die Anfrage entgegennehmen, bis derjenige gefunden wurde, der die Anfrage verarbeiten kann! Wichtig in der Kette ist für jedes Element nur, ob es den Request verarbeiten kann und wenn nicht, an wen es den Request weiterleitet (verlinkte Liste). 
+Kennst du den Passierschein A38? Richtig, den aus Asterix und Obelix. Was hat das mit der chain of responsibility zu tun? Einfach: Die beiden haben eine Anfrage (unser Request) und es gibt potentiell variabel viele Personen (unsere Request-Handler), die die Anfrage entgegennehmen, bis derjenige gefunden wurde, der die Anfrage verarbeiten kann! Wichtig in der Kette ist für jedes Element nur, ob es den Request verarbeiten kann und wenn nicht, an wen es den Request weiterleitet (verlinkte Liste).
 
 ## 💬 In einfachen Worten
 
@@ -10,8 +10,8 @@ Ein Request wird solange an einer Kette entlang gegeben, bis sich der richtige H
 
 ## 🖥 Beispiel
 
-```php 
-<?php 
+```php
+<?php
 
 abstract class BasicHandler {
   private $successor = null;

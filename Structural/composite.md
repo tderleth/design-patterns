@@ -1,12 +1,15 @@
 # Composite
 
 ## 🌍 Praktisches Beispiel
-Jedes Dateisystem setzt sich aus Ordnern und Dateien zusammen. Jeder dieser Knoten (ob Datei oder Ordner) hat dieselben Eigenschaften, wie zum Beispiel Größe oder Erstellungsdatum. Mit Hilfe des Kompositionsmusters können dabei Unterschiede zwischen einzelnen Objekten (Dateien) und zusammengesetzten Objekten (Ordnern) verborgen werden. 
+
+Jedes Dateisystem setzt sich aus Ordnern und Dateien zusammen. Jeder dieser Knoten (ob Datei oder Ordner) hat dieselben Eigenschaften, wie zum Beispiel Größe oder Erstellungsdatum. Mit Hilfe des Kompositionsmusters können dabei Unterschiede zwischen einzelnen Objekten (Dateien) und zusammengesetzten Objekten (Ordnern) verborgen werden.
 
 ## 💬 In einfachen Worten
-Ein Kompositum erlaubt es einem Client verschiedene Objekte innerhalb einer Baumstruktur gleich zu behandeln, seien sie nun ein Knoten oder ein Blatt. 
+
+Ein Kompositum erlaubt es einem Client verschiedene Objekte innerhalb einer Baumstruktur gleich zu behandeln, seien sie nun ein Knoten oder ein Blatt.
 
 ## 🖥 Beispiel
+
 ```php
 interface Node {
   public function __construct(string $name, float $size);

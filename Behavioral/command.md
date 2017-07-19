@@ -2,16 +2,16 @@
 
 ## 🌍 Praktisches Beispiel
 
-Wenn du ("Client") in einem Restaurant Essen ("Command") bei einem Kellner ("Invoker") bestellst und dieser die Bestellung dann an den Koch ("Receiver") weitergibt. 
+Wenn du ("Client") in einem Restaurant Essen ("Command") bei einem Kellner ("Invoker") bestellst und dieser die Bestellung dann an den Koch ("Receiver") weitergibt.
 
 ## 💬 In einfachen Worten
 
-Diese Pattern kapselt Aktionen in Objekte. Das Objekt beinhaltet den Namen der Methode, das Objekt, das die aufzurufende Methode enthält, sowie die zu übergebenden Parameter. 
+Diese Pattern kapselt Aktionen in Objekte. Das Objekt beinhaltet den Namen der Methode, das Objekt, das die aufzurufende Methode enthält, sowie die zu übergebenden Parameter.
 
 ## 🖥 Beispiel
 
-```php 
-<?php 
+```php
+<?php
 
 // Receiver
 class Cook {

@@ -1,6 +1,7 @@
 # Template Method
 
 ## 🌍 Praktisches Beispiel
+
 Stell dir vor, wir wollen ein neues Paper schreiben. Die einzelnen Schritte dazu sehen meist wie folgt aus:
 
 1. Forschung
@@ -10,11 +11,12 @@ Stell dir vor, wir wollen ein neues Paper schreiben. Die einzelnen Schritte dazu
 Die Reihenfolge dieser Schritte wird immer eingehalten, man kann nicht Schreiben, bevor man nicht weiß über was und bevor nichts geschrieben ist, kann man nichts veröffentlichen. Aber, jeder der Schritte kann modifiziert werden, so kann die Forschung einmal eine Studie enthalten oder ein Experiment oder das Schreiben kann in verschiedenen Sprache stattfinden.
 
 ## 💬 In einfachen Worten
+
 Die Template method definiert ein Gerüst, wie ein bestimmter Algorithmus ausgeführt werden mus, gibt aber die eigentliche Implementierung an die Kind-Klassen ab.
 
 ## 🖥 Beispiel
-Stell dir ein Build Tool vor, das uns hilft eine Applikation zu testen, linten, compilieren und deployen. Je nach Plattform haben wir vom Build-Objekt eine andere Kind-Klasse.
 
+Stell dir ein Build Tool vor, das uns hilft eine Applikation zu testen, linten, compilieren und deployen. Je nach Plattform haben wir vom Build-Objekt eine andere Kind-Klasse.
 
 ```php
 <?php

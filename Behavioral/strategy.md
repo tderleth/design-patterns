@@ -1,17 +1,12 @@
 # Strategy
 
 ## 🌍 Praktisches Beispiel
-Du bist Koch in einem berühmten Steakhouse. Es gibt verschiedene Strategien
-ein Steak zu kochen (Rare, Medium Rare, Medium, Medium Well etc.) und du möchtest
-spontan auf die Wünsche der Kunden eingehen. Daher legst du dir
-verschiedene, austauschbare Strategien zurecht.
+
+Du bist Koch in einem berühmten Steakhouse. Es gibt verschiedene Strategien ein Steak zu kochen (Rare, Medium Rare, Medium, Medium Well etc.) und du möchtest spontan auf die Wünsche der Kunden eingehen. Daher legst du dir verschiedene, austauschbare Strategien zurecht.
 
 ## 💬 In einfachen Worten
-Unterschiedliche Algorithmen oder Funktionen um ein Problem zu
-lösen werden in separate Objekte (Strategy) gekapselt und hinter
-einem Interface versteckt. Zur Laufzeit kann dann die passende
-Strategie ausgewählt werden. Damit ist die Strategie entkoppelt
-vom Kontext und austauschbar.
+
+Unterschiedliche Algorithmen oder Funktionen um ein Problem zu lösen werden in separate Objekte (Strategy) gekapselt und hinter einem Interface versteckt. Zur Laufzeit kann dann die passende Strategie ausgewählt werden. Damit ist die Strategie entkoppelt vom Kontext und austauschbar.
 
 ## 🖥 Beispiel
 
@@ -54,7 +49,5 @@ public class Cook {
 ```
 
 ## Wann brauche ich das?
-Ihr habt verschiedene Herangehensweisen für ein Problem, die sich in der Implementierung
-stark unterscheiden, aber das gleiche Ergebnis haben. Um Austauschbarkeit und Erweiterbarkeit
-zu garantieren, bietet es sich an die Strategien separat zu implementieren und
-zur Laufzeit eures Programms die passende zu wählen.
+
+Ihr habt verschiedene Herangehensweisen für ein Problem, die sich in der Implementierung stark unterscheiden, aber das gleiche Ergebnis haben. Um Austauschbarkeit und Erweiterbarkeit zu garantieren, bietet es sich an die Strategien separat zu implementieren und zur Laufzeit eures Programms die passende zu wählen.

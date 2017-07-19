@@ -1,17 +1,16 @@
 # Observer
 
-
 ## 🌍 Praktisches Beispiel
 
 Stell dir vor, du willst online neue Schuhe kaufen, sie sind aber ausverkauft. Zum Glück hat der Online Shop eine Funktion um dich zu benachrichtigen sobald deine neuen heißen Treter wieder vorrätig sind.
 
 ## 💬 In einfachen Worten
 
-Beim Observer geht es darum, dass ein Objekt (der Online Shop) eine Liste seiner Abonnenten (du) führt und sobald sich sein Zustand ändert diese darüber informiert. 
+Beim Observer geht es darum, dass ein Objekt (der Online Shop) eine Liste seiner Abonnenten (du) führt und sobald sich sein Zustand ändert diese darüber informiert.
 
 ## 🖥 Beispiel
 
-```php 
+```php
 <?php
 
 class Shoes {

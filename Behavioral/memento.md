@@ -1,14 +1,12 @@
 # Memento
 
 ## 🌍 Praktisches Beispiel
-Ihr seid Koch (*Caretaker*) in einem Restaurant, nach einer langen Schicht sieht es in der Küche (*Originator*) immmer aus wie Sau.
-Anstatt mühselig alles zu putzen, würdet ihr gerne den Zustand der Küche vor dem Kochen in eine
-magische Kiste (*Memento*) packen und später wiederherstellen (*undo* oder *rollback*).
+
+Ihr seid Koch (_Caretaker_) in einem Restaurant, nach einer langen Schicht sieht es in der Küche (_Originator_) immmer aus wie Sau. Anstatt mühselig alles zu putzen, würdet ihr gerne den Zustand der Küche vor dem Kochen in eine magische Kiste (_Memento_) packen und später wiederherstellen (_undo_ oder _rollback_).
 
 ## 💬 In einfachen Worten
-Mit dem Memento Pattern könnt ihr den Zustand eines Objekts abbilden und zu einem späteren
-Zeitpunkt wiederherstellen, ohne die interne Struktur des Objektes zu kennen.
-Dabei verwaltet der **Caretaker** den Zustand des **Originator** mithilfe des **Memento**.
+
+Mit dem Memento Pattern könnt ihr den Zustand eines Objekts abbilden und zu einem späteren Zeitpunkt wiederherstellen, ohne die interne Struktur des Objektes zu kennen. Dabei verwaltet der **Caretaker** den Zustand des **Originator** mithilfe des **Memento**.
 
 ## 🖥 Beispiel
 
@@ -77,6 +75,5 @@ public class Cook() {
 ```
 
 ## Wann brauche ich das?
-Dieses Pattern ist immer dann geeignet, wenn ihr einen oder mehrere alte Zustände wiederherstellen
-möchtet und bei der Verwaltung dieser Zustände die Kapselung der Objekte einhaltet.
-Wie der Zustand aussieht is durch Memento sauber vom tatsächlichen Objekt getrennt.
+
+Dieses Pattern ist immer dann geeignet, wenn ihr einen oder mehrere alte Zustände wiederherstellen möchtet und bei der Verwaltung dieser Zustände die Kapselung der Objekte einhaltet. Wie der Zustand aussieht is durch Memento sauber vom tatsächlichen Objekt getrennt.
