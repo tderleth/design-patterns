@@ -59,7 +59,3 @@ $remotecontrol.doSomething();
 
 ?>
 ```
-
-turned OFF
-
-?> ```
