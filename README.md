@@ -54,8 +54,13 @@ Erzeugungsmuster konzentrieren sich darauf, wie man ein Objekt oder eine Gruppe 
 
 ## Contribution
 
-Es fehlen derzeit noch folgende Patterns
-
-- [Mediator](/Behavioral/mediator.md)
-- [Observer](/Behavioral/observer.md)
-- [Visitor](/Behavioral/visitor.md)
+- Write [Mediator](/Behavioral/mediator.md)
+- Proofreading
+- Translating examples to
+  - PHP
+  - Java
+  - Javascript
+- Linting markdwon
+- Create Logo for repository
+- Add emoijs :)
+- Add new Patterns (see `further`)
